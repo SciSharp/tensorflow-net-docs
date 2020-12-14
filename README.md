@@ -19,7 +19,7 @@ This site is built with [Docsify](https://docsify.js.org/). Site content is writ
 1. Host a local environment:
 
     ```
-    docsify init docs
+    docsify serve docs
     ```
 
 ## Deploying
