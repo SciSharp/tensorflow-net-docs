@@ -7,7 +7,7 @@ This site is built with [Docsify](https://docsify.js.org/). Site content is writ
 1. Clone the repository:
 
     ```
-    git clone [unknown for now]
+    git clone https://github.com/SciSharp/tensorflow-net-docs.git
     ```
 
 1. Install docsify:
