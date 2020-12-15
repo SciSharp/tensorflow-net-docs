@@ -166,4 +166,4 @@ for step = 1 to  (training_steps + 1) do
         printfn $"step: {step}, loss: {loss.numpy()}, W: {W.numpy()}, b: {b.numpy()}"
 ```
 
-Read the docs & book [The Definitive Guide to Tensorflow.NET](https://tensorflownet.readthedocs.io/en/latest/FrontCover.html) if you want to know more about TensorFlow for .NET under the hood.
+Want to learn more? Read the docs & book [The Definitive Guide to Tensorflow.NET](https://tensorflownet.readthedocs.io/en/latest/FrontCover.html).

@@ -13,7 +13,7 @@ using static Tensorflow.Binding;
 using static Tensorflow.KerasApi;
 ```
 
-Linear Regression in `Eager` mode:
+线性回归（Linear Regression）：
 
 ```csharp
 // Parameters        
@@ -59,9 +59,7 @@ foreach (var step in range(1, training_steps + 1))
 }
 ```
 
-Run this example in [Jupyter Notebook](https://github.com/SciSharp/SciSharpCube).
-
-Toy version of `ResNet` in `Keras` functional API:
+用 `Keras` 的 API 试试简单的 `ResNet`：
 
 ```csharp
 // input layer
@@ -109,7 +107,7 @@ model.fit(x_train[new Slice(0, 1000)], y_train[new Slice(0, 1000)],
 
 ### F# 例子
 
-Linear Regression in `Eager` mode:
+线性回归（Linear Regression）：
 
 ```fsharp
 #r "nuget: TensorFlow.Net"
@@ -166,4 +164,4 @@ for step = 1 to  (training_steps + 1) do
         printfn $"step: {step}, loss: {loss.numpy()}, W: {W.numpy()}, b: {b.numpy()}"
 ```
 
-Read the docs & book [The Definitive Guide to Tensorflow.NET](https://tensorflownet.readthedocs.io/en/latest/FrontCover.html) if you want to know more about TensorFlow for .NET under the hood.
+想了解点更多细节玩法？试试这个 [The Definitive Guide to Tensorflow.NET（英文）](https://tensorflownet.readthedocs.io/en/latest/FrontCover.html)。
