@@ -25,3 +25,19 @@ Please make sure you keep your fork up to date by regularly pulling from upstrea
 ```bash
 git pull upstream master
 ```
+
+#### Update forked repo
+
+```
+# ensures current branch is master
+git checkout master
+
+# pulls all new commits made to upstream/master
+git pull upstream master
+
+# this will delete all your local changes to master
+git reset --hard upstream/master
+
+# take care, this will delete all your changes on your forked master
+git push origin master --force
+```

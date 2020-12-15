@@ -22,3 +22,19 @@ git remote add upstream git@github.com:SciSharp/TensorFlow.NET.git
 ```bash
 git pull upstream master
 ```
+
+#### 更新 forked 仓库
+
+```
+# ensures current branch is master
+git checkout master
+
+# pulls all new commits made to upstream/master
+git pull upstream master
+
+# this will delete all your local changes to master
+git reset --hard upstream/master
+
+# take care, this will delete all your changes on your forked master
+git push origin master --force
+```
