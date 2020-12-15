@@ -2,7 +2,7 @@
 
 TensorFlow.NET pack all required libraries in architecture-specific assemblies folders per NuGet standard.
 
-```powershell
+```bash
 PM> Install-Package TensorFlow.NET
 PM> Install-Package SciSharp.TensorFlow.Redist
 ```
@@ -32,13 +32,13 @@ There is no GPU support for macOS.
 
 #### GPU for Windows
 
-```powershell
+```bash
 PM> Install-Package SciSharp.TensorFlow.Redist-Windows-GPU
 ```
 
 #### GPU for Linux
 
-```powershell
+```bash
 PM> Install-Package SciSharp.TensorFlow.Redist-Linux-GPU
 ```
 

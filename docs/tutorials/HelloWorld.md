@@ -24,7 +24,7 @@ TensorFlow.NET uses the .NET Standard 2.0 standard, so your new project Target F
 
 
 
-```cmd
+```bash
 ### install tensorflow C# binding
 PM> Install-Package TensorFlow.NET
 
@@ -62,7 +62,7 @@ namespace TensorFlowNET.Examples
 }
 ```
 After CTRL + F5 run, you will get the output.
-```cmd
+```bash
 9/20/2020 2:15:09 AM Starting Hello World
 tf.Tensor: shape=(), dtype=string, numpy=Hello, TensorFlow.NET!
 9/20/2020 2:15:09 AM Completed Hello World
