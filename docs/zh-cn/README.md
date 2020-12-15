@@ -2,11 +2,11 @@
 
 ![logo](../_images/tf.net.logo.png)
 
-<div class="myCenter">
-    <a class="btn-blue" style="color: #ffffff; margin-right: 20px;" href="#/zh-cn/essentials/introduction?id=快速入门">
+<div class="text-center">
+    <a class="btn btn-lg mb-3 me-md-3" style="background-color: purple; color: white" href="#/zh-cn/essentials/introduction?id=快速入门">
         搞快点
     </a>
-    <a href="https://github.com/SciSharp/TensorFlow.NET">
+    <a class="btn btn-lg btn-outline-secondary mb-3" href="https://github.com/SciSharp/TensorFlow.NET">
         GitHub
     </a>
 </div>

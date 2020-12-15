@@ -2,12 +2,12 @@
 
 ![logo](_images/tf.net.logo.png)
 
-<div class="myCenter">
+<div class="text-center">
     <!-- [GetStarted](essentials/introduction) -->
-    <a class="btn-blue" style="color: #ffffff; margin-right: 20px;" href="#/essentials/introduction?id=getting-started">
+    <a class="btn btn-lg mb-3 me-md-3" style="background-color: purple; color: white" href="#/essentials/introduction?id=getting-started">
         Get Started
     </a>
-    <a href="https://github.com/SciSharp/TensorFlow.NET">
+    <a class="btn btn-lg btn-outline-secondary mb-3" href="https://github.com/SciSharp/TensorFlow.NET">
         GitHub
     </a>
 </div>
