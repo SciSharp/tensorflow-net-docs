@@ -2,7 +2,7 @@
 
 TensorFlow uses a **dataflow graph** to represent your computation in terms of the dependencies between individual operations. A graph defines the computation. It doesn't compute anything, it doesn't hold any values, it just defines the operations that you specified in your code.
 
-### Defining the Graph
+## Defining the Graph
 
 We define a graph with a variable and three operations: `variable` returns the current value of our variable.   `initialize` assigns the initial value of 31 to that variable. `assign` assigns the new value of 12 to that variable.
 
@@ -23,7 +23,7 @@ A typical graph is looks like below:
 
 
 
-### Save Model
+## Save Model
 
 Saving the model means saving all the values of the parameters and the graph.
 
@@ -47,9 +47,9 @@ This holds a network of nodes, each representing one operation, connected to eac
 
 
 
-### Freezing the Graph
+## Freezing the Graph
 
-##### *Why we need it?*
+### *Why we need it?*
 
 When we need to keep all the values of the variables and the Graph structure in a single file we have to freeze the graph.
 
@@ -69,13 +69,13 @@ freeze_graph.freeze_graph(input_graph = 'logistic_regression/tensorflowModel.pbt
 
 ```
 
-### Optimizing for Inference
+## Optimizing for Inference
 
 To Reduce the amount of computation needed when the network is used only for inferences we can remove some parts of a graph that are only needed for training. 
 
 
 
-### Restoring the Model
+## Restoring the Model
 
 
 

@@ -4,7 +4,7 @@ TensorFlow **session** runs parts of the graph across a set of local and remote 
 
 
 
-### Running Computations in a Session
+## Running Computations in a Session
 
 Let's complete the example in last chapter.  To run any of the operations, we need to create a session for that graph. The session will also allocate memory to store the current value of the variable.
 

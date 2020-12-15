@@ -2,7 +2,7 @@
 
 
 
-### What is linear regression?
+## What is linear regression?
 
 Linear regression is a linear approach to modelling the relationship between a scalar response (or dependent variable) and one or more explanatory variables (or independent variables). 
 
@@ -23,7 +23,7 @@ Based on the given data points, we try to plot a line that models the points the
 
 
 
-### Cost Function
+## Cost Function
 
 The cost function helps us to figure out the best possible values for $w$ and $b$ which would provide the best fit line for the data points. Since we want the best values for $w$ and $b$, we convert this search problem into a minimization problem where we would like to minimize the error between the predicted value and the actual value.
 
@@ -55,7 +55,7 @@ var cost = tf.reduce_sum(tf.pow(pred - Y, 2.0f)) / (2.0f * n_samples);
 
 
 
-### Gradient Descent
+## Gradient Descent
 
 The another important concept needed to understand is gradient descent. Gradient descent is a method of updating $w$ and $b$ to minimize the cost function. The idea is that we start with some random values for $w$ and $b$ and then we change these values iteratively to reduce the cost. Gradient descent helps us on how to update the values or which direction we would go next. Gradient descent is also know as **steepest descent**.
 

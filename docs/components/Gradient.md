@@ -1,6 +1,6 @@
 # Gradient
 
-### Register custom gradient function
+## Register custom gradient function
 
 TF.NET is extensible which can be added custom gradient function.
 

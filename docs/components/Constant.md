@@ -9,7 +9,7 @@ In TensorFlow, a constant is a special Tensor that cannot be modified while the 
 
 
 
-### How to create a Constant
+## How to create a Constant
 
 TensorFlow provides a handy function to create a Constant. In TF.NET, you can use the same function name `tf.constant` to create it. TF.NET takes the same name as python binding for the API. Naming, although this will make developers who are used to C# naming convention feel uncomfortable, but after careful consideration, I decided to give up the C# convention naming method. One of reason is for model developer, they don't have to learn a totally new different APIs.
 
@@ -36,13 +36,13 @@ var nd = np.array(new int[,]
 var tensor = tf.constant(nd);
 ```
 
-### Dive in Constant
+## Dive in Constant
 
 Now let's explore how `constant` works in `eager` mode inside the black box.
 
 Let's continue using the last examples, we're going to initialize a tensor in an ndarray of `[shape(2, 3), int32]`.
 
-##### NDArray
+### NDArray
 
 The first thing we need to know is about `ndarray`'s memory model. The ndarray memory model is a very important data structure, and almost all underlying computation are inseparable from this datb a structure. One fundamental aspect of the ndarray is that an array is seen as a "chunk" of memory starting at some location. The interpretation of this memory depends on the stride information. A segment of memory is inherently 1-dimensional, and there are many different schemes for arranging the items of an N-dimensional array in a 1-dimensional block. `ndarray` objects can accommodate any strided indexing scheme. In a strided scheme, the N-dimensional index <img src="_images\constant\n-index-formula.svg"/> corresponds to the offset (in bytes) : <img src="_images\constant\n-index-formula-offset.svg" />.
 
@@ -56,7 +56,7 @@ For example: if you want to seek the value in `[1, 1]`, you just need to calcula
 
 Through the above diagram, we know how the data is stored in memory, and then we will look at how the data is transferred to `TensorFlow`.
 
-##### Tensor
+### Tensor
 
 If you don't understand very well what `Tensor` is, you can go back to the chapter `Tensor` there is pretty much explanation if you skipped that chapter. Tensor is actually an NDArray that is with more than 2 dimensions.
 
@@ -66,7 +66,7 @@ TensorFlow will decide whether to copy the data or use the same pointer. Normall
 
 Before tensorflow is creating the `TF_Tensor`, it checks the shape and data size. If the size doesn't match, it will return `nullptr` pointer.
 
-##### Get the data of Tensor
+### Get the data of Tensor
 
 For `eager` mode, it's pretty simple to view the actual value in a `tensor`.
 
@@ -76,7 +76,7 @@ var data = tensor.numpy()
 
 The `data` will be a `ndarray` variable.
 
-##### Other functions to create a Constant
+### Other functions to create a Constant
 
 * tf.zeros
 * tf.zeros_like
