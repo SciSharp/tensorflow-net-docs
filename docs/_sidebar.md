@@ -5,6 +5,7 @@
 
 * Tutorials
     * [HelloWorld](tutorials/HelloWorld.md)
+    * [Image Recognition](tutorials/ImageRecognition.md)
     * [MnistInRnn](tutorials/MnistInRnn.md)
 
 * Components
@@ -22,10 +23,9 @@
     * [Queue](components/Queue.md)
     * [Gradient](components/Gradient.md)
     * [Train](components/Train.md)
-    * [EagerMode](components/EagerMode.md)
-    * [LinearRegression](components/LinearRegression.md)
-    * [LogisticRegression](components/LogisticRegression.md)
-    * [NearestNeighbor](components/NearestNeighbor.md)
-    * [ImageRecognition](components/ImageRecognition.md)
-    * [NeuralNetwork](components/NeuralNetwork.md)
-    * [ConvolutionNeuralNetwork](components/ConvolutionNeuralNetwork.md)
+    * [Eager Mode](components/EagerMode.md)
+    * [Linear Regression](components/LinearRegression.md)
+    * [Logistic Regression](components/LogisticRegression.md)
+    * [Nearest Neighbor](components/NearestNeighbor.md)
+    * [Neural Network](components/NeuralNetwork.md)
+    * [Convolution Neural Network](components/ConvolutionNeuralNetwork.md)

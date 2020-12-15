@@ -19,7 +19,7 @@ TF.NET simulate a `with` syntax to manage the Graph lifecycle which will be disp
 
 A typical graph is looks like below:
 
-![image](../assets/graph_vis_animation.gif)
+![image](../_media/graph_vis_animation.gif)
 
 
 

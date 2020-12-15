@@ -6,7 +6,7 @@ In this chapter, we'll implement a simple Convolutional Neural Network model. We
 
 The structure of the neural network we're going to build is as follows. The hand-written digits images of the MNIST data which has 10 classes (from 0 to 9). The network is with 2 convolutional layers followed by 2 full-connected layers at the end. 
 
-![neural network architecture](../assets/cnn.png)
+![neural network architecture](../_media/cnn.png)
 
 Get started with the implementation:
 
@@ -14,7 +14,7 @@ Get started with the implementation:
 
    MNIST is dataset of handwritten digits which contains 55,000 examples for training, 5,000 examples for validation and 10,000 example for testing. The digits have been size-normalized and centered in a fixed-size image (28 x 28 pixels) with values from 0 and 1.Each image has been flattened and converted to a 1-D array of 784 features. It's also kind of benchmark of datasets for deep learning.
 
-   ![MNIST dataset](../assets/mnist.png)
+   ![MNIST dataset](../_media/mnist.png)
 
    We define some variables makes it easier to modify them later. 
 
@@ -346,5 +346,5 @@ Get started with the implementation:
    }
    ```
 
-![](../assets/cnn-result.png)
+![](../_media/cnn-result.png)
 
