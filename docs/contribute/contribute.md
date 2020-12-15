@@ -10,18 +10,18 @@ You can:
 * Debug one of the unit tests that is marked as Ignored to get it to work
 * Debug one of the not yet working examples and get it to work
 
-### How to debug unit tests:
+### How to debug unit tests
 
 The best way to find out why a unit test is failing is to single step it in C# or F# and its corresponding Python at the same time to see where the flow of execution digresses or where variables exhibit different values. Good Python IDEs like PyCharm let you single step into the tensorflow library code. 
 
 ### Git Knowhow for Contributors
 
 Add SciSharp/TensorFlow.NET as upstream to your local repo ...
-```git
+```bash
 git remote add upstream git@github.com:SciSharp/TensorFlow.NET.git
 ```
 
 Please make sure you keep your fork up to date by regularly pulling from upstream. 
-```git
+```bash
 git pull upstream master
 ```
