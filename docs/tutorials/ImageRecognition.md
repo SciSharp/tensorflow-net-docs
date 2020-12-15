@@ -9,9 +9,9 @@ The GoogLeNet architecture conforms to below design principles:
 * Spatial aggregation can be done over lower dimensional embeddings without much or any loss in representational power.
 * Balance the width and depth of the network.
 
-#### Let's get started with real code.
+## Let's get started with real code.
 
-##### 1. Prepare data
+### 1. Prepare data
 
 This example will download the dataset and uncompress it automatically. Some external paths are omitted, please refer to the source code for the real path.
 
@@ -34,7 +34,7 @@ private void PrepareData()
 }
 ```
 
-##### 2. Load image file and normalize
+### 2. Load image file and normalize
 
 We need to load a sample image to test our pre-trained inception model. Convert it into tensor and normalized the input image. The pre-trained model takes input in the form of a 4-dimensional tensor with shape [BATCH_SIZE, INPUT_HEIGHT, INPUT_WEIGHT, 3] where:
 
@@ -66,7 +66,7 @@ private NDArray ReadTensorFromImageFile(string file_name,
 }
 ```
 
-##### 3. Load pre-trained model and predict
+### 3. Load pre-trained model and predict
 
 Load the pre-trained inception model which is saved as Google's protobuf file format. Construct a new graph then set input and output operations in a new session. After run the session, you will get a numpy-like ndarray which is provided by NumSharp. With NumSharp, you can easily perform various operations on multiple dimensional arrays in the .NET environment.
 
@@ -104,7 +104,7 @@ public void Run()
 }
 ```
 
-##### 4. Print the result
+### 4. Print the result
 
 The best probability is `military uniform` which is 0.8343058. It's the correct classification.
 

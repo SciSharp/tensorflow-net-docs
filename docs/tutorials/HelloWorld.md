@@ -8,7 +8,7 @@ Let's run a classic HelloWorld program first and see if TensorFlow is running on
 
 
 
-### Install the TensorFlow.NET SDK
+## Install the TensorFlow.NET SDK
 
 TensorFlow.NET uses the .NET Standard 2.0 standard, so your new project Target Framework can be .NET Framework or .NET Core/ .NET 5.  All the examples in this book are using .NET Core 3.1 and Microsoft Visual Studio Community 2019. To start building TensorFlow program you just need to download and install the .NET SDK (Software Development Kit). You have to download the latest .NET Core SDK from offical website: https://dotnet.microsoft.com/download.
 
@@ -36,7 +36,7 @@ PM> Install-Package SciSharp.TensorFlow.Redist
 PM> Install-Package SciSharp.TensorFlow.Redist-Windows-GPU
 ```
 
-### Start coding Hello World
+## Start coding Hello World
 
 After installing the TensorFlow.NET package, you can use the `using static Tensorflow.Binding` to introduce the TensorFlow .NET library.
 
