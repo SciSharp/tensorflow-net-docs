@@ -4,10 +4,10 @@
 
 <div class="text-center mt-5">
     <!-- [GetStarted](essentials/introduction) -->
-    <a class="btn btn-lg mb-3 me-md-3" style="background-color: purple; color: white" href="#/essentials/introduction?id=getting-started">
+    <a class="btn btn-lg mb-3 me-md-3" id="btn" style="background-color: purple; color: white" href="#/essentials/introduction?id=getting-started">
         Get Started
     </a>
-    <a class="btn btn-lg btn-outline-secondary mb-3" href="https://github.com/SciSharp/TensorFlow.NET">
+    <a class="btn btn-lg btn-outline-secondary mb-3" id="btn" href="https://github.com/SciSharp/TensorFlow.NET">
         GitHub
     </a>
 </div>
