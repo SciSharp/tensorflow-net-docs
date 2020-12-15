@@ -43,3 +43,10 @@ dotnet add package SciSharp.TensorFlow.Redist
 ### For GPU version (CUDA and cuDNN are required)
 dotnet add package SciSharp.TensorFlow.Redist-Windows-GPU
 ```
+
+## Troubleshooting
+
+Still got some problem?
+
+- Come [here](essentials/installationTroubleshooting.md).
+- Or [post](https://github.com/SciSharp/TensorFlow.NET/issues) an issue for help!
