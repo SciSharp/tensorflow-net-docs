@@ -2,12 +2,12 @@
 
 ![logo](_images/tf.net.logo.png)
 
-<div class="text-center">
-    <a href="#/zh-cn/essentials/introduction">
-        <button class="btn btn-lg btn-primary">搞快点</button>
+<div class="myCenter">
+    <a class="btn-blue" style="color: #ffffff; margin-right: 20px;" href="#/zh-cn/essentials/introduction">
+        搞快点
     </a>
-    <a href="https://github.com/SciSharp/TensorFlow.NET">
-        <button class="btn btn-lg btn-light">GitHub</button>
+    <a class="myButton" href="https://github.com/SciSharp/TensorFlow.NET">
+        GitHub
     </a>
 </div>
 
