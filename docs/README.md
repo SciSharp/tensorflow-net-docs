@@ -4,7 +4,7 @@
 
 <div class="myCenter">
     <!-- [GetStarted](essentials/introduction) -->
-    <a class="btn-blue" style="color: #ffffff; margin-right: 20px;" href="#/essentials/introduction">
+    <a class="btn-blue" style="color: #ffffff; margin-right: 20px;" href="#/essentials/introduction?id=getting-started">
         Get Started
     </a>
     <a href="https://github.com/SciSharp/TensorFlow.NET">

@@ -3,7 +3,7 @@
 ![logo](../_images/tf.net.logo.png)
 
 <div class="myCenter">
-    <a class="btn-blue" style="color: #ffffff; margin-right: 20px;" href="#/zh-cn/essentials/introduction">
+    <a class="btn-blue" style="color: #ffffff; margin-right: 20px;" href="#/zh-cn/essentials/introduction?id=快速入门">
         搞快点
     </a>
     <a href="https://github.com/SciSharp/TensorFlow.NET">
