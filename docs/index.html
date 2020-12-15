@@ -66,8 +66,14 @@
                 search: {
                     maxAge: 86400000, // Expiration time, the default one day
                     paths: "auto",
-                    placeholder: "Type to search",
-                    noData: "No Results!",
+                    placeholder: {
+                        "/zh-cn/": "搜索",
+                        "/": "Type to Search",
+                    },
+                    noData: {
+                        "/zh-cn/": "没有结果!",
+                        "/": "No results!",
+                    },
                     // Headline depth, 1 - 6
                     depth: 6,
                     hideOtherSidebarContent: false, // whether or not to hide other sidebar content
