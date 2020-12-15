@@ -2,7 +2,7 @@
 
 ## 快速入门
 
-[Installation](essentials/installation.md)
+[记得先安装依赖包](zh-cn/essentials/installation.md)
 
 ### C# 例子
 
