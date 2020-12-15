@@ -8,14 +8,14 @@
 
 将 TF.NET 和 Keras API 导入到你的项目内：
 
-```cs
+```csharp
 using static Tensorflow.Binding;
 using static Tensorflow.KerasApi;
 ```
 
 Linear Regression in `Eager` mode:
 
-```c#
+```csharp
 // Parameters        
 var training_steps = 1000;
 var learning_rate = 0.01f;
