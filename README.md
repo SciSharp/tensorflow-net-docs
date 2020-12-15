@@ -1,4 +1,4 @@
-# Documentations for Tensorflow.NET
+# Documentations for TensorFlow.NET
 
 This site is built with [Docsify](https://docsify.js.org/). Site content is written in Markdown format located in [docs](docs/).
 

@@ -1,12 +1,12 @@
 # Contribute
 
-Feel like contributing to one of the hottest projects in the Machine Learning field? Want to know how Tensorflow magically creates the computational graph? We appreciate every contribution however small. There are tasks for novices to experts alike, if everyone tackles only a small task the sum of contributions will be huge.
+Feel like contributing to one of the hottest projects in the Machine Learning field? Want to know how TensorFlow magically creates the computational graph? We appreciate every contribution however small. There are tasks for novices to experts alike, if everyone tackles only a small task the sum of contributions will be huge.
 
 You can:
 * Let everyone know about this project
-* Port Tensorflow unit tests from Python to C# or F#
-* Port missing Tensorflow code from Python to C# or F#
-* Port Tensorflow examples to C# or F# and raise issues if you come accross missing parts of the API
+* Port TensorFlow unit tests from Python to C# or F#
+* Port missing TensorFlow code from Python to C# or F#
+* Port TensorFlow examples to C# or F# and raise issues if you come accross missing parts of the API
 * Debug one of the unit tests that is marked as Ignored to get it to work
 * Debug one of the not yet working examples and get it to work
 

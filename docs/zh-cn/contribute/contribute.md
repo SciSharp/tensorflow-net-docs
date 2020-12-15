@@ -5,7 +5,7 @@
 一起来：
 
 * 宣传一波
-* 整点用 C# 或者 F# 写的 Tensorflow 测试用例 from Python to C# or F#
+* 整点用 C# 或者 F# 写的 TensorFlow 测试用例 from Python to C# or F#
 * 帮忙填填没写完的坑
 * 到[项目里](https://github.com/SciSharp/TensorFlow.NET/issues)写点 issues
 

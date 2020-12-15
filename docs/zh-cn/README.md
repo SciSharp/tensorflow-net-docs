@@ -1,4 +1,4 @@
-<!-- # Tensorflow.NET -->
+<!-- # TensorFlow.NET -->
 
 ![logo](../_images/tf.net.logo.png)
 

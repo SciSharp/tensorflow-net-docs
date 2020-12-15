@@ -44,7 +44,7 @@ PM> Install-Package SciSharp.TensorFlow.Redist-Linux-GPU
 
 ### Download prebuild binary manually
 
-Tensorflow packages are built nightly and uploaded to GCS for all supported platforms. They are uploaded to the [libtensorflow-nightly](https://www.tensorflow.org/install/lang_c) GCS bucket and are indexed by operating system and date built.
+TensorFlow packages are built nightly and uploaded to GCS for all supported platforms. They are uploaded to the [libtensorflow-nightly](https://www.tensorflow.org/install/lang_c) GCS bucket and are indexed by operating system and date built.
 
 
 ### Build from source for Windows

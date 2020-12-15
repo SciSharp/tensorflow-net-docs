@@ -8,15 +8,15 @@
 
 ##### 1. You Know, for Machine Learning............................................................................................ 3
 
-​     Installing Tensorflow.NET                                                                                                                   
-​     Running Tensorflow.NET
-​     Talking to Tensorflow.NET
+​     Installing TensorFlow.NET                                                                                                                   
+​     Running TensorFlow.NET
+​     Talking to TensorFlow.NET
 
 ##### 2. Hello World
 
 
 
-## Part II. Tensorflow.NET in Depth
+## Part II. TensorFlow.NET in Depth
 
 ##### 1. Control Dependency ......................................................................................................
 
