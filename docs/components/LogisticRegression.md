@@ -10,7 +10,7 @@ The dependent variable of logistics regression can be two-category or multi-cate
 
 
 
-Softmax regression allows us to handle ![1557035393445](_images\logistic-regression\1557035393445.png) where K is the number of classes.
+Softmax regression allows us to handle ![1557035393445](../_images\logistic-regression\1557035393445.png) where K is the number of classes.
 
 
 The full example is [here](https://github.com/SciSharp/TensorFlow.NET/blob/master/test/TensorFlowNET.Examples/BasicModels/LogisticRegression.cs).

@@ -16,11 +16,11 @@ TensorFlow.NET uses the .NET Standard 2.0 standard, so your new project Target F
 
 1. New a project
 
-   ![New Project](_images/new-project.png)
+   ![New Project](../_images/new-project.png)
 
 2. Choose Console App (.NET Core)
 
-   ![Console App](_images/new-project-console.png)
+   ![Console App](../_images/new-project-console.png)
 
 
 

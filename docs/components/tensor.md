@@ -8,7 +8,7 @@
 
 Tensor holds a multi-dimensional array of elements of a single data type which is very similar with `NumPy`'s `ndarray`. When the dimension is zero, it can be called a scalar. When the dimension is 2, it can be called a matrix. When the dimension is greater than 2, it is usually called a tensor. If you are very familiar with `NumPy`, then understanding Tensor will be quite easy.
 
-<img src="_images\tensor-naming.png">
+![](../_images/tensor-naming.png)
 
 ##### How to create a Tensor?
 
@@ -41,9 +41,9 @@ var nd = np.array(1f, 2f, 3f, 4f, 5f, 6f).reshape(2, 3);
 ```
 
 
-<img src="_images/column-major-order.png">column-major order</img>
+![column-major order](../_images/column-major-order.png)
 
-<img src="_images/row-major-order.png">row-major order</img>
+![row-major order](../_images/row-major-order.png)
 
 ##### Index/ Slice of Tensor
 

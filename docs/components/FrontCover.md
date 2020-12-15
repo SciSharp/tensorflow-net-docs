@@ -9,7 +9,7 @@
 
 
 
-![Front Cover](_images/front-cover.jpg)
+![Front Cover](../_images/front-cover.jpg)
 
 
 

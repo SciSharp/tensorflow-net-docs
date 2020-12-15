@@ -17,7 +17,7 @@ var train_X = np.array(3.3f, 4.4f, 5.5f, 6.71f, 6.93f, 4.168f, 9.779f, 6.182f, 7
 var train_Y = np.array(1.7f, 2.76f, 2.09f, 3.19f, 1.694f, 1.573f, 3.366f, 2.596f, 2.53f, 1.221f, 2.827f, 3.465f, 1.65f, 2.904f, 2.42f, 2.94f, 1.3f);
 var n_samples = train_X.shape[0];
 ```
-![regression dataset](_images/regression-dataset.png)
+![regression dataset](../_images/regression-dataset.png)
 
 Based on the given data points, we try to plot a line that models the points the best. The red line can be modelled based on the linear equation: $y = wx + b$. The motive of the linear regression algorithm is to find the best values for $w$ and $b$. Before moving on to the algorithm, le's have a look at two important concepts you must know to better understand linear regression.
 
@@ -29,7 +29,7 @@ The cost function helps us to figure out the best possible values for $w$ and $b
 
 
 
-![minimize-square-cost](_images/minimize-square-cost.png)
+![minimize-square-cost](../_images/minimize-square-cost.png)
 
 We choose the above function to minimize. The difference between the predicted values and ground truth measures the error difference. We square the error difference and sum over all data points and divide that
 value by the total number of data points. This provides the average squared error over all the data points. Therefore, this cost function is also known as the Mean Squared Error(MSE) function. Now, using this MSE
@@ -62,7 +62,7 @@ The another important concept needed to understand is gradient descent. Gradient
 
 
 
-![gradient-descent](_images/gradient-descent.png)
+![gradient-descent](../_images/gradient-descent.png)
 
 To draw an analogy, imagine a pit in the shape of U and you are standing at the topmost point in the pit and your objective is to reach the bottom of the pit. There is a catch, you can only take a discrete number
 of steps to reach the bottom. If you decide to take one step at a time you would eventually reach the bottom of the pit but this would take a longer time. If you choose to take longer steps each time, you would 
@@ -80,6 +80,6 @@ var optimizer = tf.train.GradientDescentOptimizer(learning_rate).minimize(cost);
 
 When we visualize the graph in TensorBoard:
 
-![linear-regression](_images/linear-regression-tensor-board.png)
+![linear-regression](../_images/linear-regression-tensor-board.png)
 
 The full example is [here](https://github.com/SciSharp/TensorFlow.NET/blob/master/test/TensorFlowNET.Examples/BasicModels/LinearRegression.cs).
