@@ -12,4 +12,6 @@
     </a>
 </div>
 
-> **TensorFlow.NET** (TF.NET) provides a .NET Standard binding for [TensorFlow](https://www.tensorflow.org/). It aims to implement the complete Tensorflow API in C# which allows .NET developers to develop, train and deploy Machine Learning models with the cross-platform .NET Standard framework. TensorFlow.NET has built-in Keras high-level interface and is released as an independent package [TensorFlow.Keras](https://www.nuget.org/packages/TensorFlow.Keras/).
+> -   Bypassing python, TF.NET starts from C# to [C code](https://www.tensorflow.org/). Efficiency++!
+> -   Cross-platform! Support .NET Standard!
+> -   Independent package [Keras](<(https://www.nuget.org/packages/TensorFlow.Keras/)>) without downloading TF.NET!
