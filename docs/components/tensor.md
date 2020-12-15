@@ -1,4 +1,4 @@
-# Chapter 1. Tensor
+# Tensor
 
 ### Represents one of the outputs of an Operation
 
