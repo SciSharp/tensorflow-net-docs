@@ -190,4 +190,4 @@ Want to try the Chinese version? Try [C# TensorFlow 2 入门教程](https://gith
 
 ## Talk is cheap
 
-[Here is the code](https://github.com/SciSharp/SciSharp-Stack-Examples).
+[Show me the code](https://github.com/SciSharp/SciSharp-Stack-Examples).
