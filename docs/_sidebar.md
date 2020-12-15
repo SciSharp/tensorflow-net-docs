@@ -4,9 +4,9 @@
     * [Introduction](essentials/introduction.md)
 
 * Tutorials
-    * [HelloWorld](tutorials/HelloWorld.md)
+    * [Hello World](tutorials/HelloWorld.md)
     * [Image Recognition](tutorials/ImageRecognition.md)
-    * [MnistInRnn](tutorials/MnistInRnn.md)
+    * [Mnist In Rnn](tutorials/MnistInRnn.md)
 
 * Components
     <!-- * [FrontCover](components/FrontCover.md) -->
