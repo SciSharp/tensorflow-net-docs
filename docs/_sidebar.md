@@ -30,6 +30,8 @@
     * [Neural Network](components/NeuralNetwork.md)
     * [Convolution Neural Network](components/ConvolutionNeuralNetwork.md)
 
+* [APIs](api.md)
+
 * Contribute
     * [Contribute](contribute/contribute.md)
     * [Contact](contribute/contact.md)
