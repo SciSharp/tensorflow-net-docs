@@ -1,4 +1,4 @@
-# Chapter 3. Graph
+# Graph
 
 TensorFlow uses a **dataflow graph** to represent your computation in terms of the dependencies between individual operations. A graph defines the computation. It doesn't compute anything, it doesn't hold any values, it just defines the operations that you specified in your code.
 

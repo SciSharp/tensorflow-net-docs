@@ -1,4 +1,4 @@
-# Chapter. Logistic Regression
+# Logistic Regression
 
 ### What is logistic regression?
 

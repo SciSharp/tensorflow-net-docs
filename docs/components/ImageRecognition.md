@@ -1,4 +1,4 @@
-# Chapter. Image Recognition
+# Image Recognition
 
 An example for using the [TensorFlow.NET](https://github.com/SciSharp/TensorFlow.NET) and [NumSharp](https://github.com/SciSharp/NumSharp) for image recognition, it will use a pre-trained inception model to predict a image which outputs the categories sorted by probability. The original paper is [here](https://arxiv.org/pdf/1512.00567.pdf). The Inception architecture of GoogLeNet was designed to perform well even under strict constraints on memory and computational budget. The computational cost of Inception is also much lower than other performing successors. This has made it feasible to utilize Inception networks in big-data scenarios, where huge amount of data needed to be processed at reasonable cost or scenarios where memory or computational capacity is inherently limited, for example in mobile vision settings.
 

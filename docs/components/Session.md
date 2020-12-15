@@ -1,4 +1,4 @@
-# Chapter. Session
+# Session
 
 TensorFlow **session** runs parts of the graph across a set of local and remote devices. A session allows to execute graphs or part of graphs. It allocates resources (on one or more machines) for that and holds the actual values of intermediate results and variables.
 

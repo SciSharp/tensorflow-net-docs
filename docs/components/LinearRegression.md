@@ -1,4 +1,4 @@
-# Chapter. Linear Regression
+# Linear Regression
 
 
 

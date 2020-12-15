@@ -1,4 +1,4 @@
-# Chapter 2. Constant
+# Constant
 
 In TensorFlow, a constant is a special Tensor that cannot be modified while the graph is running. Like in a linear model `y = ax + b`, constant `b` can be represented as a `Constant` Tensor. Since the constant is a Tensor, it also has all the data characteristics of Tensor, including:
 

@@ -1,4 +1,4 @@
-# Chapter. Gradient
+# Gradient
 
 ### Register custom gradient function
 

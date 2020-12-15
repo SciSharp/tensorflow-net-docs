@@ -1,4 +1,4 @@
-# Chapter. Trainer
+# Trainer
 
 ### Saver
 

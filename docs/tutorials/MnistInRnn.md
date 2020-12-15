@@ -1,4 +1,4 @@
-# Chapter. MNIST In RNN
+# MNIST In RNN
 
 ### Recurrent Neural Networks
 

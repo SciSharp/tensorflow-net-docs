@@ -1,4 +1,4 @@
-# Chapter. Convolution Neural Network
+# Convolution Neural Network
 
 In this chapter, we'll implement a simple Convolutional Neural Network model. We'll implement this model to classify MNIST dataset.
 
