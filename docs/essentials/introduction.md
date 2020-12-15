@@ -166,5 +166,7 @@ for step = 1 to  (training_steps + 1) do
         printfn $"step: {step}, loss: {loss.numpy()}, W: {W.numpy()}, b: {b.numpy()}"
 ```
 
+## Get me more docs
+
 Want to learn more? Read the docs & book [The Definitive Guide to Tensorflow.NET](https://tensorflownet.readthedocs.io/en/latest/FrontCover.html).
 Want to try the Chinese version? Click [here](https://github.com/SciSharp/TensorFlow.NET-Tutorials).

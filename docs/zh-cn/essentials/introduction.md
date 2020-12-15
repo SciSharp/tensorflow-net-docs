@@ -164,5 +164,7 @@ for step = 1 to  (training_steps + 1) do
         printfn $"step: {step}, loss: {loss.numpy()}, W: {W.numpy()}, b: {b.numpy()}"
 ```
 
+## 整点别的文档
+
 想了解点更多细节玩法？试试这个 [详细介绍](https://github.com/SciSharp/TensorFlow.NET-Tutorials)。
 不够刺激，想来整点英文的？ 到这里 [The Definitive Guide to Tensorflow.NET（英文）](https://tensorflownet.readthedocs.io/en/latest/FrontCover.html)。
