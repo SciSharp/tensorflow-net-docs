@@ -1,6 +1,6 @@
 <!-- # TensorFlow.NET -->
 
-![logo](_images/tf.net.logo.png)
+![logo](_images/tf.net.logo.png ":no-zoom")
 
 <div class="text-center">
     <!-- [GetStarted](essentials/introduction) -->

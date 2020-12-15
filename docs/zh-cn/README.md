@@ -1,6 +1,6 @@
 <!-- # TensorFlow.NET -->
 
-![logo](../_images/tf.net.logo.png)
+![logo](../_images/tf.net.logo.png ":no-zoom")
 
 <div class="text-center">
     <a class="btn btn-lg mb-3 me-md-3" style="background-color: purple; color: white" href="#/zh-cn/essentials/introduction?id=快速入门">
