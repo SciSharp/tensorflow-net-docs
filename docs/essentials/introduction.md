@@ -186,7 +186,7 @@ for step = 1 to  (training_steps + 1) do
 ## Get me more docs
 
 Want to learn more? Read the docs & book [The Definitive Guide to Tensorflow.NET](https://tensorflownet.readthedocs.io/en/latest/FrontCover.html).
-Want to try the Chinese version? Click [here](https://github.com/SciSharp/TensorFlow.NET-Tutorials).
+Want to try the Chinese version? Try [C# TensorFlow 2 入门教程](https://github.com/SciSharp/TensorFlow.NET-Tutorials).
 
 ## Talk is cheap
 
