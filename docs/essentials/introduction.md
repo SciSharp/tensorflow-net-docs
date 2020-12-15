@@ -170,3 +170,7 @@ for step = 1 to  (training_steps + 1) do
 
 Want to learn more? Read the docs & book [The Definitive Guide to Tensorflow.NET](https://tensorflownet.readthedocs.io/en/latest/FrontCover.html).
 Want to try the Chinese version? Click [here](https://github.com/SciSharp/TensorFlow.NET-Tutorials).
+
+## Talk is cheap
+
+[Here is the code](https://github.com/SciSharp/SciSharp-Stack-Examples).
