@@ -1,5 +1,15 @@
 # 介绍
 
+## 凭啥选 C# 和 F# 版本的？
+
+长得很像啊，几乎没学习难度：
+
+![pythn vs csharp](../../_media/syntax-comparision.png)
+
+用了这个项目，你就可以在 C# 和 F# 项目上跑机器学习了。
+
+举个例子， [TensorFlowSharp](https://www.nuget.org/packages/TensorFlowSharp/) 需要在 python 层之上跑 C# 代码，不够高效。但是 [TF.NET](https://github.com/SciSharp/TensorFlow.NET) 就直接跟 Tensorflow 的 C++ API 打交道，够快！
+
 ## 快速入门
 
 [记得先安装依赖包](zh-cn/essentials/installation.md)
