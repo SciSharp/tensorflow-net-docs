@@ -46,7 +46,7 @@ dotnet add package SciSharp.TensorFlow.Redist-Windows-GPU
 
 ## Troubleshooting
 
-Still got some problem?
+Still got some problems?
 
 - Come [here](essentials/installationTroubleshooting.md).
 - Or [post](https://github.com/SciSharp/TensorFlow.NET/issues) an issue for help!
