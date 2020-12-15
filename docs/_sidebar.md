@@ -3,10 +3,12 @@
     * [Installation](essentials/installation.md)
     * [Introduction](essentials/introduction.md)
 
+
 * Tutorials
     * [Hello World](tutorials/HelloWorld.md)
     * [Image Recognition](tutorials/ImageRecognition.md)
     * [Mnist In Rnn](tutorials/MnistInRnn.md)
+
 
 * Components
     <!-- * [FrontCover](components/FrontCover.md) -->
@@ -30,8 +32,12 @@
     * [Neural Network](components/NeuralNetwork.md)
     * [Convolution Neural Network](components/ConvolutionNeuralNetwork.md)
 
-* [APIs](api.md)
+
+* API
+    * [tf](api/tf.md)
+
 
 * Contribute
     * [Contribute](contribute/contribute.md)
     * [Contact](contribute/contact.md)
+
