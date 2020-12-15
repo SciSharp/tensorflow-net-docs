@@ -29,3 +29,7 @@
     * [Nearest Neighbor](components/NearestNeighbor.md)
     * [Neural Network](components/NeuralNetwork.md)
     * [Convolution Neural Network](components/ConvolutionNeuralNetwork.md)
+
+* Contribute
+    * [Contribute](contribute/contribute.md)
+    * [Contact](contribute/contact.md)
