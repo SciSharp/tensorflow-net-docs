@@ -2,7 +2,7 @@
 
 ![logo](../_images/tf.net.logo.png ":no-zoom")
 
-<div class="text-center">
+<div class="text-center mt-5">
     <a class="btn btn-lg mb-3 me-md-3" style="background-color: purple; color: white" href="#/zh-cn/essentials/introduction?id=快速入门">
         搞快点
     </a>

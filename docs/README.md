@@ -2,7 +2,7 @@
 
 ![logo](_images/tf.net.logo.png ":no-zoom")
 
-<div class="text-center">
+<div class="text-center mt-5">
     <!-- [GetStarted](essentials/introduction) -->
     <a class="btn btn-lg mb-3 me-md-3" style="background-color: purple; color: white" href="#/essentials/introduction?id=getting-started">
         Get Started
