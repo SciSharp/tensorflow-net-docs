@@ -15,6 +15,21 @@
             href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
         />
 
+        <!-- bootstrap -->
+        <!-- CSS only -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+            crossorigin="anonymous"
+        />
+        <!-- JavaScript Bundle with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+            crossorigin="anonymous"
+        ></script>
+
         <!-- prism: code highlight -->
         <!-- <link href="//cdn.jsdelivr.net/npm/prismjs@1/themes/prism.css" rel="stylesheet" /> -->
         <link
@@ -35,11 +50,17 @@
         </style>
     </head>
     <body>
+        <nav>
+            <a href="#/">EN</a>
+            <a href="#/zh-cn/">中文</a>
+        </nav>
         <div id="app"></div>
         <script>
             window.$docsify = {
                 name: "Tensorflow.NET",
                 repo: "https://github.com/SciSharp/TensorFlow.NET",
+                loadNavbar: true,
+                loadSidebar: true,
                 subMaxLevel: 2,
 
                 search: {
@@ -58,6 +79,7 @@
         <!-- prismjs -->
         <script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
         <script src="//unpkg.com/prismjs/components/prism-csharp.min.js"></script>
+        <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
         <!-- docsify-katex -->
         <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
         <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
