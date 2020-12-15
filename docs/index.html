@@ -18,10 +18,22 @@
             :root {
                 /* --base-font-size: 14px; */
                 --theme-color: rgb(179, 0, 179);
+                --sidebar-nav-link-text-decoration: none !important;
+                --sidebar-nav-link-text-decoration--active: none !important;
+                --sidebar-nav-link-text-decoration--hover: none !important;
+                --navbar-root-text-decoration: none !important;
+                --navbar-menu-link-text-decoration: none !important;
             }
             /* fix name conflict between bootstrap and docsify */
             .collapse:not(.show) {
                 display: unset !important;
+            }
+            /* stop underlining top-most title on the sidebar. The issue introduced by bootstrap */
+            .app-name-link {
+                text-decoration: none !important;
+            }
+            .btn {
+                text-decoration: none !important;
             }
         </style>
 
@@ -115,11 +127,14 @@
         <!-- search plugin -->
         <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
         <!-- collapse sidebar -->
-        <link
+        <!-- <link
             rel="stylesheet"
             href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css"
-        />
-        <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+        /> -->
+        <!-- <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script> -->
+
+        <!-- code copy plugin -->
+        <script src="https://unpkg.com/docsify-copy-code@2"></script>
         <!-- bootstrap -->
         <!-- CSS only -->
         <link
