@@ -10,6 +10,13 @@
 
 举个例子， [TensorFlowSharp](https://www.nuget.org/packages/TensorFlowSharp/) 需要在 python 层之上跑 C# 代码，不够高效。但是 [TF.NET](https://github.com/SciSharp/TensorFlow.NET) 就直接跟 Tensorflow 的 C++ API 打交道，够快！
 
+| TensorFlow                 | tf native1.14 | tf native 1.15 | tf native 2.3 |
+| -------------------------- | ------------- | -------------- | ------------- |
+| tf.net 0.3x, tf.keras 0.2  |               |                | x             |
+| tf.net 0.2x                |               | x              | x             |
+| tf.net 0.15                | x             | x              |               |
+| tf.net 0.14                | x             |                |               |
+
 ## 快速入门
 
 [记得先安装依赖包](zh-cn/essentials/installation.md)
