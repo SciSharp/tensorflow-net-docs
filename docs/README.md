@@ -7,7 +7,7 @@
     <a class="btn-blue" style="color: #ffffff; margin-right: 20px;" href="#/essentials/introduction">
         Get Started
     </a>
-    <a class="myButton" href="https://github.com/SciSharp/TensorFlow.NET">
+    <a href="https://github.com/SciSharp/TensorFlow.NET">
         GitHub
     </a>
 </div>

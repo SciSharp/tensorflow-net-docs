@@ -6,7 +6,7 @@
     <a class="btn-blue" style="color: #ffffff; margin-right: 20px;" href="#/zh-cn/essentials/introduction">
         搞快点
     </a>
-    <a class="myButton" href="https://github.com/SciSharp/TensorFlow.NET">
+    <a href="https://github.com/SciSharp/TensorFlow.NET">
         GitHub
     </a>
 </div>
