@@ -1,6 +1,6 @@
 <!-- # Tensorflow.NET -->
 
-![logo](_images/tf.net.logo.png)
+![logo](../_images/tf.net.logo.png)
 
 <div class="myCenter">
     <a class="btn-blue" style="color: #ffffff; margin-right: 20px;" href="#/zh-cn/essentials/introduction">
