@@ -8,7 +8,7 @@
 
 SciSharp's philosophy allows a large number of machine learning code written in Python to be quickly migrated to .NET, enabling .NET developers to use cutting edge machine learning models and access a vast number of Tensorflow resources which would not be possible without this project.
 
-<video style="width: 100%;" src="../_media/csharp-vs-python-speed.mp4" type="video/mp4" controls autoplay loop>python vs csharp on speed</video>
+<video style="width: 100%;" src="_media/csharp-vs-python-speed.mp4" type="video/mp4" controls autoplay loop>python vs csharp on speed</video>
 
 > No surprise, .NET version (left window) is faster than python version (right window) binding. 10K iterates for linear regression in TensorFlow SGD. (CPU)
 
