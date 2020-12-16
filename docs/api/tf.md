@@ -1,5 +1,42 @@
 # API of `tf`
 
+## Classes
+
+| Name        | Description                               | Has Test Case | Has Completed |
+| ----------- | ----------------------------------------- | ------------- | ------------- |
+| [`class AggregationMethod`](https://www.tensorflow.org/api_docs/python/tf/AggregationMethod) | : A class listing aggregation methods used to combine gradients. | | |
+| [`class CriticalSection`](https://www.tensorflow.org/api_docs/python/tf/CriticalSection) | : Critical section. | | |
+| [`class DType`](https://www.tensorflow.org/api_docs/python/tf/dtypes/DType) | : Represents the type of the elements in a `Tensor`. | | |
+| [`class DeviceSpec`](https://www.tensorflow.org/api_docs/python/tf/DeviceSpec) | : Represents a (possibly partial) specification for a TensorFlow device. | | |
+| [`class GradientTape`](https://www.tensorflow.org/api_docs/python/tf/GradientTape) | : Record operations for automatic differentiation. | | |
+| [`class Graph`](https://www.tensorflow.org/api_docs/python/tf/Graph) | : A TensorFlow computation, represented as a dataflow graph. | | |
+| [`class IndexedSlices`](https://www.tensorflow.org/api_docs/python/tf/IndexedSlices) | : A sparse representation of a set of tensor slices at given indices. | | |
+| [`class IndexedSlicesSpec`](https://www.tensorflow.org/api_docs/python/tf/IndexedSlicesSpec) | : Type specification for a [`tf.IndexedSlices`](https://www.tensorflow.org/api_docs/python/tf/IndexedSlices). | | |
+| [`class Module`](https://www.tensorflow.org/api_docs/python/tf/Module) | : Base neural network module class. | | |
+| [`class Operation`](https://www.tensorflow.org/api_docs/python/tf/Operation) | : Represents a graph node that performs computation on tensors. | | |
+| [`class OptionalSpec`](https://www.tensorflow.org/api_docs/python/tf/OptionalSpec) | : Type specification for [`tf.experimental.Optional`](https://www.tensorflow.org/api_docs/python/tf/experimental/Optional). | | |
+| [`class RaggedTensor`](https://www.tensorflow.org/api_docs/python/tf/RaggedTensor) | : Represents a ragged tensor. | | |
+| [`class RaggedTensorSpec`](https://www.tensorflow.org/api_docs/python/tf/RaggedTensorSpec) | : Type specification for a [`tf.RaggedTensor`](https://www.tensorflow.org/api_docs/python/tf/RaggedTensor). | | |
+| [`class RegisterGradient`](https://www.tensorflow.org/api_docs/python/tf/RegisterGradient) | : A decorator for registering the gradient function for an op type. | | |
+| [`class SparseTensor`](https://www.tensorflow.org/api_docs/python/tf/sparse/SparseTensor) | : Represents a sparse tensor. | | |
+| [`class SparseTensorSpec`](https://www.tensorflow.org/api_docs/python/tf/SparseTensorSpec) | : Type specification for a [`tf.sparse.SparseTensor`](https://www.tensorflow.org/api_docs/python/tf/sparse/SparseTensor). | | |
+| [`class Tensor`](https://www.tensorflow.org/api_docs/python/tf/Tensor) | : A tensor is a multidimensional array of elements represented by a | | |
+| [`class TensorArray`](https://www.tensorflow.org/api_docs/python/tf/TensorArray) | : Class wrapping dynamic-sized, per-time-step, write-once Tensor arrays. | | |
+| [`class TensorArraySpec`](https://www.tensorflow.org/api_docs/python/tf/TensorArraySpec) | : Type specification for a [`tf.TensorArray`](https://www.tensorflow.org/api_docs/python/tf/TensorArray). | | |
+| [`class TensorShape`](https://www.tensorflow.org/api_docs/python/tf/TensorShape) | : Represents the shape of a `Tensor`. | | |
+| [`class TensorSpec`](https://www.tensorflow.org/api_docs/python/tf/TensorSpec) | : Describes a tf.Tensor. | | |
+| [`class TypeSpec`](https://www.tensorflow.org/api_docs/python/tf/TypeSpec) | : Specifies a TensorFlow value type. | | |
+| [`class UnconnectedGradients`](https://www.tensorflow.org/api_docs/python/tf/UnconnectedGradients) | : Controls how gradient computation behaves when y does not depend on x. | | |
+| [`class Variable`](https://www.tensorflow.org/api_docs/python/tf/Variable) | : See the [variable guide](https://tensorflow.org/guide/variable). | | |
+| [`class VariableAggregation`](https://www.tensorflow.org/api_docs/python/tf/VariableAggregation) | : Indicates how a distributed variable will be aggregated. | | |
+| [`class VariableSynchronization`](https://www.tensorflow.org/api_docs/python/tf/VariableSynchronization) | : Indicates when a distributed variable will be synced. | | |
+| [`class constant_initializer`](https://www.tensorflow.org/api_docs/python/tf/constant_initializer) | : Initializer that generates tensors with constant values. | | |
+| [`class name_scope`](https://www.tensorflow.org/api_docs/python/tf/name_scope) | : A context manager for use when defining a Python op. | | |
+| [`class ones_initializer`](https://www.tensorflow.org/api_docs/python/tf/ones_initializer) | : Initializer that generates tensors initialized to 1. | | |
+| [`class random_normal_initializer`](https://www.tensorflow.org/api_docs/python/tf/random_normal_initializer) | : Initializer that generates tensors with a normal distribution. | | |
+| [`class random_uniform_initializer`](https://www.tensorflow.org/api_docs/python/tf/random_uniform_initializer) | : Initializer that generates tensors with a uniform distribution. | | |
+| [`class zeros_initializer`](https://www.tensorflow.org/api_docs/python/tf/zeros_initializer) | : Initializer that generates tensors initialized to 0. | | |
+
 ## Functions
 
 | Name        | Description                               | Has Test Case | Has Completed |
