@@ -20,3 +20,7 @@
 - [Basic Operations](https://github.com/SciSharp/SciSharp-Stack-Examples/blob/master/src/TensorFlowNET.Examples/BasicOperations.cs)
 
 - [AutoGraph](https://medium.com/scisharp/tensorflow-autograph-for-net-a89f1e97a4a5)
+
+- Automatic Differentiation
+
+    ![](../_images/Automatic-Differentiation.png)

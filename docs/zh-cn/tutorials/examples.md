@@ -20,3 +20,7 @@
 - [基本操作](https://github.com/SciSharp/SciSharp-Stack-Examples/blob/master/src/TensorFlowNET.Examples/BasicOperations.cs)
 
 - [AutoGraph](https://medium.com/scisharp/tensorflow-autograph-for-net-a89f1e97a4a5)
+
+- 自动求导
+
+    ![](../../_images/Automatic-Differentiation.png)
