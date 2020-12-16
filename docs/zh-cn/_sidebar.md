@@ -4,6 +4,10 @@
     * [注意事项](zh-cn/essentials/tips.md)
 
 
+* 教程
+    * [例子](zh-cn/tutorials/examples.md)
+
+
 * API
     * [tf](api/tf.md)
 
