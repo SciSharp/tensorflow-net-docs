@@ -1,6 +1,7 @@
 * 必看
     * [安装依赖包](zh-cn/essentials/installation.md)
     * [介绍](zh-cn/essentials/introduction.md)
+    * [注意事项](zh-cn/essentials/tips.md)
 
 
 * API
