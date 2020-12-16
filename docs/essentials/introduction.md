@@ -183,11 +183,11 @@ for step = 1 to  (training_steps + 1) do
         printfn $"step: {step}, loss: {loss.numpy()}, W: {W.numpy()}, b: {b.numpy()}"
 ```
 
-## Get me more docs
+## External Documentations
 
 Want to learn more? Read the docs & book [The Definitive Guide to Tensorflow.NET](https://tensorflownet.readthedocs.io/en/latest/FrontCover.html).
 Want to try the Chinese version? Try [C# TensorFlow 2 入门教程](https://github.com/SciSharp/TensorFlow.NET-Tutorials).
 
-## Talk is cheap
+## Complete Examples
 
-[Show me the code](https://github.com/SciSharp/SciSharp-Stack-Examples).
+Talk is cheap, [show me the code](https://github.com/SciSharp/SciSharp-Stack-Examples). (Repository of complete samples)
