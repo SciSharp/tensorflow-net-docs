@@ -18,3 +18,5 @@
 - [Image Processing](https://github.com/SciSharp/SciSharp-Stack-Examples/tree/master/src/TensorFlowNET.Examples/ImageProcessing)
 
 - [Basic Operations](https://github.com/SciSharp/SciSharp-Stack-Examples/blob/master/src/TensorFlowNET.Examples/BasicOperations.cs)
+
+- [AutoGraph](https://medium.com/scisharp/tensorflow-autograph-for-net-a89f1e97a4a5)
