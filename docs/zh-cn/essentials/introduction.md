@@ -8,6 +8,10 @@
 
 用了这个项目，你就可以在 C# 和 F# 项目上跑机器学习了。
 
+<video style="width: 100%;" src="../_media/csharp-vs-python-speed.mp4" type="video/mp4" controls autoplay loop>python vs csharp on speed</video>
+
+> 毫无悬念， .NET 版本 (左边那个) 完爆 python 版本 (右边那个). 👆 用 TensorFlow SGD 跑 1 万次循环的线性回归. (CPU)
+
 举个例子， [TensorFlowSharp](https://www.nuget.org/packages/TensorFlowSharp/) 需要在 python 层之上跑 C# 代码，不够高效。但是 [TF.NET](https://github.com/SciSharp/TensorFlow.NET) 就直接跟 Tensorflow 的 C++ API 打交道，够快！
 
 | TensorFlow                 | tf native1.14 | tf native 1.15 | tf native 2.3 |
