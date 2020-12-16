@@ -15,3 +15,5 @@ tf.matmul();
 ```csharp
 np.matmul();
 ```
+
+## Use `np` if saving/loading `Tensor`
