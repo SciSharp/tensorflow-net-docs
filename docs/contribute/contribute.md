@@ -28,7 +28,7 @@ git pull upstream master
 
 #### Update forked repo
 
-```
+```bash
 # ensures current branch is master
 git checkout master
 

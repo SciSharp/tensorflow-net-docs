@@ -25,16 +25,17 @@ git pull upstream master
 
 #### 更新 forked 仓库
 
-```
-# ensures current branch is master
+```bash
+# 确保当前的分支（branch）是 master
 git checkout master
 
-# pulls all new commits made to upstream/master
+# 将【主仓库】（upstream/master）的所有改变都下载到【本地仓库】
+# 此时并不会覆盖你本地仓库的内容
 git pull upstream master
 
-# this will delete all your local changes to master
+# 注意！这会【删除】你【本地仓库】的所有改变，相当于重新对【主仓库】（upstream）做一次 fork
 git reset --hard upstream/master
 
-# take care, this will delete all your changes on your forked master
+# 注意！这会将你【 GitHub 上的仓库】强行同步为你【当前的本地仓库】
 git push origin master --force
 ```
