@@ -16,6 +16,8 @@ SciSharp's philosophy allows a large number of machine learning code written in 
 
 > It is 2x faster and 1/4 memory occupation of training time in eager mode than python binding. (TensorFlow.NET 0.20-preview2)
 
+## Why over TensorFlowSharp?
+
 In comparison to other projects, like for instance [TensorFlowSharp](https://www.nuget.org/packages/TensorFlowSharp/) which only provide Tensorflow's low-level C++ API and can only run models that were built using Python, Tensorflow.NET also implements Tensorflow's high level API where all the magic happens. This computation graph building layer is still under active development. Once it is completely implemented you can build new Machine Learning models in C# or F#. 
 
 | TensorFlow                 | tf native1.14 | tf native 1.15 | tf native 2.3 |
