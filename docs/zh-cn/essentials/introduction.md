@@ -43,40 +43,46 @@ using static Tensorflow.KerasApi;
 线性回归（Linear Regression）：
 
 ```csharp
-// Parameters        
+// 超变量
 var training_steps = 1000;
 var learning_rate = 0.01f;
 var display_step = 100;
 
-// Sample data
+// 最终我们要拟合的目标散点
 var train_X = np.array(3.3f, 4.4f, 5.5f, 6.71f, 6.93f, 4.168f, 9.779f, 6.182f, 7.59f, 2.167f,
              7.042f, 10.791f, 5.313f, 7.997f, 5.654f, 9.27f, 3.1f);
 var train_Y = np.array(1.7f, 2.76f, 2.09f, 3.19f, 1.694f, 1.573f, 3.366f, 2.596f, 2.53f, 1.221f,
              2.827f, 3.465f, 1.65f, 2.904f, 2.42f, 2.94f, 1.3f);
 var n_samples = train_X.shape[0];
 
-// We can set a fixed init value in order to demo
+// 转化一下表达，这样会更好看
+var X = train_X;
+var Y = train_Y;
+
+// 初始化 weights 和 bias （这里只是示意一下，后面要用随机函数或者 0 初始化）
 var W = tf.Variable(-0.06f, name: "weight");
 var b = tf.Variable(-0.73f, name: "bias");
 var optimizer = tf.optimizers.SGD(learning_rate);
 
-// Run training for the given number of steps.
+// 训练 step 次
 foreach (var step in range(1, training_steps + 1))
 {
-    // Run the optimization to update W and b values.
-    // Wrap computation inside a GradientTape for automatic differentiation.
-    using var g = tf.GradientTape();
-    // Linear regression (Wx + b).
-    var pred = W * X + b;
-    // Mean square error.
-    var loss = tf.reduce_sum(tf.pow(pred - Y, 2)) / (2 * n_samples);
-    // should stop recording
-    // Compute gradients.
-    var gradients = g.gradient(loss, (W, b));
+    // 出现在下面这个 tf.GradientTape 花括号里面的所有东西都会被记录，然后会被自动求导
+    using (var g = tf.GradientTape())
+    {
+        // 线性回归 的 前向传播 公式
+        var pred = W * X + b;
+        // 均方误差 （MSE）.
+        var loss = tf.reduce_sum(tf.pow(pred - Y, 2)) / (2 * n_samples);
+        // 是时候停止记录 前向传播 了
+        // 现在开始计算梯度.
+        var gradients = g.gradient(loss, (W, b));
+    }
 
-    // Update W and b following gradients.
+    // 根据所给的梯度值，更新 weights 和 bias. （反向传播）
     optimizer.apply_gradients(zip(gradients, (W, b)));
 
+    // 在命令行输出中间结果
     if (step % display_step == 0)
     {
         pred = W * X + b;
@@ -92,7 +98,7 @@ foreach (var step in range(1, training_steps + 1))
 // input layer
 var inputs = keras.Input(shape: (32, 32, 3), name: "img");
 
-// convolutional layer
+// 卷积层
 var x = layers.Conv2D(32, 3, activation: "relu").Apply(inputs);
 x = layers.Conv2D(64, 3, activation: "relu").Apply(x);
 var block_1_output = layers.MaxPooling2D(3).Apply(x);
@@ -113,19 +119,19 @@ x = layers.Dropout(0.5f).Apply(x);
 // output layer
 var outputs = layers.Dense(10).Apply(x);
 
-// build keras model
+// 开始定义 keras 模型
 model = keras.Model(inputs, outputs, name: "toy_resnet");
 model.summary();
 
-// compile keras model in tensorflow static graph
+// 将 keras 模型 编译进 tensorflow 的静态图
 model.compile(optimizer: keras.optimizers.RMSprop(1e-3f),
 	loss: keras.losses.CategoricalCrossentropy(from_logits: true),
 	metrics: new[] { "acc" });
 
-// prepare dataset
+// 准备 dataset
 var ((x_train, y_train), (x_test, y_test)) = keras.datasets.cifar10.load_data();
 
-// training
+// 开始训练
 model.fit(x_train[new Slice(0, 1000)], y_train[new Slice(0, 1000)], 
           batch_size: 64, 
           epochs: 10, 
@@ -150,12 +156,12 @@ open type Tensorflow.KerasApi
 let tf = New<tensorflow>()
 tf.enable_eager_execution()
 
-// Parameters
+// 超变量
 let training_steps = 1000
 let learning_rate = 0.01f
 let display_step = 100
 
-// Sample data
+// 最终我们要拟合的目标散点
 let train_X = 
     np.array(3.3f, 4.4f, 5.5f, 6.71f, 6.93f, 4.168f, 9.779f, 6.182f, 7.59f, 2.167f,
              7.042f, 10.791f, 5.313f, 7.997f, 5.654f, 9.27f, 3.1f)
@@ -164,25 +170,28 @@ let train_Y =
              2.827f, 3.465f, 1.65f, 2.904f, 2.42f, 2.94f, 1.3f)
 let n_samples = train_X.shape.[0]
 
-// We can set a fixed init value in order to demo
+// 转化一下表达，这样会更好看
+let X = train_X
+let Y = train_Y
+
+// 初始化 weights 和 bias （这里只是示意一下，后面要用随机函数或者 0 初始化）
 let W = tf.Variable(-0.06f,name = "weight")
 let b = tf.Variable(-0.73f, name = "bias")
 let optimizer = keras.optimizers.SGD(learning_rate)
 
-// Run training for the given number of steps.
+// 训练 step 次
 for step = 1 to  (training_steps + 1) do 
-    // Run the optimization to update W and b values.
-    // Wrap computation inside a GradientTape for automatic differentiation.
+    // 出现在下面这个 tf.GradientTape 的 use 控制域里面的所有东西都会被记录，然后会被自动求导
     use g = tf.GradientTape()
-    // Linear regression (Wx + b).
+    // 线性回归 的 前向传播 公式
     let pred = W * train_X + b
-    // Mean square error.
+    // 均方误差 （MSE）.
     let loss = tf.reduce_sum(tf.pow(pred - train_Y,2)) / (2 * n_samples)
-    // should stop recording
-    // compute gradients
+    // 是时候停止记录 前向传播 了
+    // 现在开始计算梯度.
     let gradients = g.gradient(loss,struct (W,b))
 
-    // Update W and b following gradients.
+    // 根据所给的梯度值，更新 weights 和 bias. （反向传播）
     optimizer.apply_gradients(zip(gradients, struct (W,b)))
 
     if (step % display_step) = 0 then
