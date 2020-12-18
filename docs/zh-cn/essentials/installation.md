@@ -44,14 +44,14 @@ dotnet add package SciSharp.TensorFlow.Redist
 dotnet add package SciSharp.TensorFlow.Redist-Windows-GPU
 ```
 
-……如果选了 GPU 依赖, **必须**确认 TensorFlow (i.e. `tf native`) 和 CUDA 的版本是能够兼容的:
-
-| `TF.NET` \ TensorFlow       | tf native 1.14 | tf native 1.15 | tf native 2.3 |
-| --------------------------- | -------------- | -------------- | ------------- |
-| `tf.net` 0.3x, tf.keras 0.2 |                |                | x             |
-| `tf.net` 0.2x               |                | x              | x             |
-| `tf.net` 0.15               | x              | x              |               |
-| `tf.net` 0.14               | x              |                |               |
+> ……如果选了 GPU 依赖, **必须**确认 TensorFlow (i.e. `tf native`) 和 CUDA 的版本是能够兼容的:
+>
+> | `TF.NET` \ TensorFlow       | tf native 1.14 | tf native 1.15 | tf native 2.3 |
+> | --------------------------- | :------------: | :------------: | :-----------: |
+> | `tf.net` 0.3x, tf.keras 0.2 |                |                |       x       |
+> | `tf.net` 0.2x               |                |       x        |       x       |
+> | `tf.net` 0.15               |       x        |       x        |               |
+> | `tf.net` 0.14               |       x        |                |               |
 
 ## 疑难杂症
 
