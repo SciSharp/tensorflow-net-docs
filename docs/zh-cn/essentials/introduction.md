@@ -49,15 +49,11 @@ var learning_rate = 0.01f;
 var display_step = 100;
 
 // 最终我们要拟合的目标散点
-var train_X = np.array(3.3f, 4.4f, 5.5f, 6.71f, 6.93f, 4.168f, 9.779f, 6.182f, 7.59f, 2.167f,
+var X = np.array(3.3f, 4.4f, 5.5f, 6.71f, 6.93f, 4.168f, 9.779f, 6.182f, 7.59f, 2.167f,
              7.042f, 10.791f, 5.313f, 7.997f, 5.654f, 9.27f, 3.1f);
-var train_Y = np.array(1.7f, 2.76f, 2.09f, 3.19f, 1.694f, 1.573f, 3.366f, 2.596f, 2.53f, 1.221f,
+var Y = np.array(1.7f, 2.76f, 2.09f, 3.19f, 1.694f, 1.573f, 3.366f, 2.596f, 2.53f, 1.221f,
              2.827f, 3.465f, 1.65f, 2.904f, 2.42f, 2.94f, 1.3f);
-var n_samples = train_X.shape[0];
-
-// 转化一下表达，这样会更好看
-var X = train_X;
-var Y = train_Y;
+var n_samples = X.shape[0];
 
 // 初始化 weights 和 bias （这里只是示意一下，后面要用随机函数或者 0 初始化）
 var W = tf.Variable(-0.06f, name: "weight");
@@ -162,17 +158,13 @@ let learning_rate = 0.01f
 let display_step = 100
 
 // 最终我们要拟合的目标散点
-let train_X = 
+let X = 
     np.array(3.3f, 4.4f, 5.5f, 6.71f, 6.93f, 4.168f, 9.779f, 6.182f, 7.59f, 2.167f,
              7.042f, 10.791f, 5.313f, 7.997f, 5.654f, 9.27f, 3.1f)
-let train_Y = 
+let Y = 
     np.array(1.7f, 2.76f, 2.09f, 3.19f, 1.694f, 1.573f, 3.366f, 2.596f, 2.53f, 1.221f,
              2.827f, 3.465f, 1.65f, 2.904f, 2.42f, 2.94f, 1.3f)
-let n_samples = train_X.shape.[0]
-
-// 转化一下表达，这样会更好看
-let X = train_X
-let Y = train_Y
+let n_samples = X.shape.[0]
 
 // 初始化 weights 和 bias （这里只是示意一下，后面要用随机函数或者 0 初始化）
 let W = tf.Variable(-0.06f,name = "weight")
@@ -184,9 +176,9 @@ for step = 1 to  (training_steps + 1) do
     // 出现在下面这个 tf.GradientTape 的 use 控制域里面的所有东西都会被记录，然后会被自动求导
     use g = tf.GradientTape()
     // 线性回归 的 前向传播 公式
-    let pred = W * train_X + b
+    let pred = W * X + b
     // 均方误差 （MSE）.
-    let loss = tf.reduce_sum(tf.pow(pred - train_Y,2)) / (2 * n_samples)
+    let loss = tf.reduce_sum(tf.pow(pred - Y,2)) / (2 * n_samples)
     // 是时候停止记录 前向传播 了
     // 现在开始计算梯度.
     let gradients = g.gradient(loss,struct (W,b))
@@ -195,8 +187,8 @@ for step = 1 to  (training_steps + 1) do
     optimizer.apply_gradients(zip(gradients, struct (W,b)))
 
     if (step % display_step) = 0 then
-        let pred = W * train_X + b
-        let loss = tf.reduce_sum(tf.pow(pred-train_Y,2)) / (2 * n_samples)
+        let pred = W * X + b
+        let loss = tf.reduce_sum(tf.pow(pred-Y,2)) / (2 * n_samples)
         printfn $"step: {step}, loss: {loss.numpy()}, W: {W.numpy()}, b: {b.numpy()}"
 ```
 
