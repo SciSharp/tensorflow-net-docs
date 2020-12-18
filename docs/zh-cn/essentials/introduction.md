@@ -20,13 +20,6 @@
 
 [TensorFlowSharp](https://www.nuget.org/packages/TensorFlowSharp/) 没有完整的上层 API 来训练模型。但是 [TF.NET](https://github.com/SciSharp/TensorFlow.NET) 的开发活动仍然非常活跃，API 十分齐全，目前已被微软作为官方机器学习框架的底层。
 
-| TensorFlow                 | tf native1.14 | tf native 1.15 | tf native 2.3 |
-| -------------------------- | ------------- | -------------- | ------------- |
-| tf.net 0.3x, tf.keras 0.2  |               |                | x             |
-| tf.net 0.2x                |               | x              | x             |
-| tf.net 0.15                | x             | x              |               |
-| tf.net 0.14                | x             |                |               |
-
 ## 快速入门
 
 [记得先安装依赖包](zh-cn/essentials/installation.md)
