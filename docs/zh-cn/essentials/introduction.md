@@ -73,10 +73,10 @@ foreach (var step in range(1, training_steps + 1))
         // 是时候停止记录 前向传播 了
         // 现在开始计算梯度.
         var gradients = g.gradient(loss, (W, b));
-    }
 
-    // 根据所给的梯度值，更新 weights 和 bias. （反向传播）
-    optimizer.apply_gradients(zip(gradients, (W, b)));
+        // 根据所给的梯度值，更新 weights 和 bias. （反向传播）
+        optimizer.apply_gradients(zip(gradients, (W, b)));
+    }
 
     // 在命令行输出中间结果
     if (step % display_step == 0)
