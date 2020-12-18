@@ -37,6 +37,7 @@
 
 * API
     * [tf](api/tf.md)
+    * [tf.nn](api/tf.nn.md)
 
 
 * Contribute

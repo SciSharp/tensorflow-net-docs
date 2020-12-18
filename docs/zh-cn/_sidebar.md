@@ -10,6 +10,7 @@
 
 * API
     * [tf](api/tf.md)
+    * [tf.nn](api/tf.nn.md)
 
 
 * 加入专业团队
