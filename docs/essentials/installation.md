@@ -45,7 +45,7 @@ dotnet add package SciSharp.TensorFlow.Redist-Windows-GPU
 
 ```
 
-...if GPU package is chosen, make very sure that if the versions of TensorFlow (i.e. `tf native`) and CUDA are compatible:
+...if GPU package is chosen, **make very sure** that if the versions of TensorFlow (i.e. `tf native`) and CUDA are compatible:
 
 | `TF.NET` \ TensorFlow       | tf native 1.14 | tf native 1.15 | tf native 2.3 |
 | --------------------------- | -------------- | -------------- | ------------- |
