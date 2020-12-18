@@ -76,14 +76,14 @@ foreach (var step in range(1, training_steps + 1))
 
         // 根据所给的梯度值，更新 weights 和 bias. （反向传播）
         optimizer.apply_gradients(zip(gradients, (W, b)));
-    }
 
-    // 在命令行输出中间结果
-    if (step % display_step == 0)
-    {
-        pred = W * X + b;
-        loss = tf.reduce_sum(tf.pow(pred - Y, 2)) / (2 * n_samples);
-        print($"step: {step}, loss: {loss.numpy()}, W: {W.numpy()}, b: {b.numpy()}");
+        // 在命令行输出中间结果
+        if (step % display_step == 0)
+        {
+            pred = W * X + b;
+            loss = tf.reduce_sum(tf.pow(pred - Y, 2)) / (2 * n_samples);
+            print($"step: {step}, loss: {loss.numpy()}, W: {W.numpy()}, b: {b.numpy()}");
+        }
     }
 }
 ```
