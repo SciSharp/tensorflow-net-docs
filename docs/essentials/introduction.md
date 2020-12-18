@@ -22,7 +22,7 @@ In comparison to other projects, like for instance [TensorFlowSharp](https://www
 
 ## Getting Started
 
-[Installation](essentials/installation.md)
+> Make sure all the dependencies are properly installed! [Installation](essentials/installation.md)
 
 ### C# Example
 
@@ -31,6 +31,8 @@ Import TF.NET and Keras API in your project.
 ```csharp
 using static Tensorflow.Binding;
 using static Tensorflow.KerasApi;
+using Tensorflow;
+using NumSharp;
 ```
 
 Linear Regression in `Eager` mode:
@@ -51,7 +53,7 @@ var n_samples = X.shape[0];
 // We can set a fixed init value in order to demo
 var W = tf.Variable(-0.06f, name: "weight");
 var b = tf.Variable(-0.73f, name: "bias");
-var optimizer = tf.optimizers.SGD(learning_rate);
+var optimizer = keras.optimizers.SGD(learning_rate);
 
 // Run training for the given number of steps.
 foreach (var step in range(1, training_steps + 1))

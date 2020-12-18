@@ -22,7 +22,7 @@
 
 ## 快速入门
 
-[记得先安装依赖包](zh-cn/essentials/installation.md)
+> 注意！[记得先安装依赖包](zh-cn/essentials/installation.md)
 
 ### C# 例子
 
@@ -31,6 +31,8 @@
 ```csharp
 using static Tensorflow.Binding;
 using static Tensorflow.KerasApi;
+using Tensorflow;
+using NumSharp;
 ```
 
 线性回归（Linear Regression）：
@@ -51,7 +53,7 @@ var n_samples = X.shape[0];
 // 初始化 weights 和 bias （这里只是示意一下，后面要用随机函数或者 0 初始化）
 var W = tf.Variable(-0.06f, name: "weight");
 var b = tf.Variable(-0.73f, name: "bias");
-var optimizer = tf.optimizers.SGD(learning_rate);
+var optimizer = keras.optimizers.SGD(learning_rate);
 
 // 训练 step 次
 foreach (var step in range(1, training_steps + 1))
