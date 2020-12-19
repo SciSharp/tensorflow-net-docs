@@ -1,18 +1,18 @@
 
-* Essentials
+* 💡 Essentials
     * [Installation](essentials/installation.md)
     * [Introduction](essentials/introduction.md)
     * [Tips](essentials/tips.md)
 
 
-* Tutorials
+* 🎓 Tutorials
     * [Hello World](tutorials/HelloWorld.md)
     * [Image Recognition](tutorials/ImageRecognition.md)
     * [Mnist In Rnn](tutorials/MnistInRnn.md)
     * [Examples](tutorials/examples.md)
 
 
-* Components
+* 🧊 Components
     <!-- * [FrontCover](components/FrontCover.md) -->
     <!-- * [Table of Contents](components/Table%20of%20Contents.md) -->
     <!-- * [Foreword](components/Foreword.md) -->
@@ -35,12 +35,12 @@
     * [Convolution Neural Network](components/ConvolutionNeuralNetwork.md)
 
 
-* API
+* ✔️ API
     * [tf](api/tf.md)
     * [tf.nn](api/tf.nn.md)
 
 
-* Contribute
+* ❤️ Contribute
     * [Contribute](contribute/contribute.md)
     * [Contact](contribute/contact.md)
 
