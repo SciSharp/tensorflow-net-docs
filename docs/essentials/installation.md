@@ -58,6 +58,7 @@ dotnet add package SciSharp.TensorFlow.Redist-Windows-GPU
 
 Still got some problems?
 
--   [More detailed documentation](essentials/installationTroubleshooting.md).
+-   [More detailed local documentation](essentials/installationTroubleshooting.md).
+-   [Microsoft official documentation](https://docs.microsoft.com/en-us/dotnet/api/microsoft.ml.vision.imageclassificationtrainer?view=ml-dotnet#using-tensorflow-based-apis).
 -   [Step-by-step setup tutorial](https://medium.com/dev-genius/tensorflow-basic-setup-for-net-developers-d56bfb0af40e).
 -   Or [post](https://github.com/SciSharp/TensorFlow.NET/issues) an issue for help!
