@@ -44,9 +44,11 @@ dotnet add package SciSharp.TensorFlow.Redist
 dotnet add package SciSharp.TensorFlow.Redist-Windows-GPU
 ```
 
+> ……binary (SciSharp.TensorFlow.Redist\*) 的版本号跟 Google 的 TensorFlow 是一致的。
+>
 > ……如果选了 GPU 依赖, **必须**确认 TensorFlow (i.e. `tf native`) 和 CUDA 的版本是能够兼容的:
 >
-> | TF.NET \ TensorFlow       | tf native1.14, cuda 10.0 | tf native 1.15, cuda 10.0 | tf native 2.3, cuda 10.1 | tf native 2.4, cuda 11 |
+> | TF.NET \ TensorFlow       | tf native 1.14, cuda 10.0 | tf native 1.15, cuda 10.0 | tf native 2.3, cuda 10.1 | tf native 2.4, cuda 11 |
 > | ------------------------- | :----------------------: | :-----------------------: | :----------------------: | :--------------------: |
 > | tf.net 0.3x, tf.keras 0.2 |                          |                           |            x             |     not compatible     |
 > | tf.net 0.2x               |                          |             x             |            x             |                        |

@@ -45,9 +45,11 @@ dotnet add package SciSharp.TensorFlow.Redist-Windows-GPU
 
 ```
 
+> ...noted that the version digits of the binary (SciSharp.TensorFlow.Redist\*) is the same as that of Google's TensorFlow.
+>
 > ...if GPU package is chosen, **make very sure** that if the versions of TensorFlow (i.e. `tf native`) and CUDA are compatible:
 >
-> | TF.NET \ TensorFlow       | tf native1.14, cuda 10.0 | tf native 1.15, cuda 10.0 | tf native 2.3, cuda 10.1 | tf native 2.4, cuda 11 |
+> | TF.NET \ TensorFlow       | tf native 1.14, cuda 10.0 | tf native 1.15, cuda 10.0 | tf native 2.3, cuda 10.1 | tf native 2.4, cuda 11 |
 > | ------------------------- | :----------------------: | :-----------------------: | :----------------------: | :--------------------: |
 > | tf.net 0.3x, tf.keras 0.2 |                          |                           |            x             |     not compatible     |
 > | tf.net 0.2x               |                          |             x             |            x             |                        |
