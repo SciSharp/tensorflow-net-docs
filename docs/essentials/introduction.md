@@ -4,16 +4,16 @@
 
 `SciSharp STACK`'s mission is to bring popular data science technology into the .NET world and to provide .NET developers with a powerful Machine Learning tool set without reinventing the wheel. Since the APIs are kept as similar as possible you can immediately adapt any existing Tensorflow code in C# or F# with a zero learning curve. Take a look at a comparison picture and see how comfortably a Tensorflow/Python script translates into a C# program with TensorFlow.NET.
 
-![pythn vs csharp](../_media/syntax-comparision.png)
+> ![pythn vs csharp](../_media/syntax-comparision.png)
 
 SciSharp's philosophy allows a large number of machine learning code written in Python to be quickly migrated to .NET, enabling .NET developers to use cutting edge machine learning models and access a vast number of Tensorflow resources which would not be possible without this project.
 
-<video style="width: 100%;" src="_media/csharp-vs-python-speed.mp4" type="video/mp4" controls autoplay loop>python vs csharp on speed</video>
-
+> <video style="width: 100%;" src="_media/csharp-vs-python-speed.mp4" type="video/mp4" controls autoplay loop>python vs csharp on speed</video>
+>
 > No surprise, .NET version (left window) is faster than python version (right window) binding. 10K iterates for linear regression in TensorFlow SGD. (CPU)
 
-![python vs csharp on speed and memory](../_media/csharp_vs_python_speed_memory.jpg)
-
+> ![python vs csharp on speed and memory](../_media/csharp_vs_python_speed_memory.jpg)
+>
 > It is 2x faster and 1/4 memory occupation of training time in eager mode than python binding. (TensorFlow.NET 0.20-preview2)
 
 ## Why over TensorFlowSharp?

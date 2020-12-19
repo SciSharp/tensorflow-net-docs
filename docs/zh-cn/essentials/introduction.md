@@ -4,16 +4,16 @@
 
 长得很像啊，几乎没学习难度：
 
-![pythn vs csharp](../../_media/syntax-comparision.png)
+> ![pythn vs csharp](../../_media/syntax-comparision.png)
 
 用了这个项目，你就可以在 C# 和 F# 项目上跑机器学习了。
 
-<video style="width: 100%;" src="_media/csharp-vs-python-speed.mp4" type="video/mp4" controls autoplay loop>python vs csharp on speed</video>
-
+> <video style="width: 100%;" src="_media/csharp-vs-python-speed.mp4" type="video/mp4" controls autoplay loop>python vs csharp on speed</video>
+>
 > 毫无悬念， .NET 版本 (左边那个) 完爆 python 版本 (右边那个). 👆 用 TensorFlow SGD 跑 1 万次循环的线性回归. (CPU)
 
-![python vs csharp on speed and memory](../../_media/csharp_vs_python_speed_memory.jpg)
-
+> ![python vs csharp on speed and memory](../../_media/csharp_vs_python_speed_memory.jpg)
+>
 > TensorFlow.NET 有 2x 速度和 1/4 空间占用相比较 python 版. (TensorFlow.NET 0.20-preview2)
 
 ## 为啥优于 TensorFlowSharp ？
