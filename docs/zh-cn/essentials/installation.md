@@ -38,10 +38,10 @@ dotnet add package TensorFlow.Keras
 ```bash
 ### Install tensorflow binary
 ### For CPU version
-dotnet add package SciSharp.TensorFlow.Redist
+dotnet add package SciSharp.TensorFlow.Redist -v 2.3.1
 
 ### For GPU version (CUDA and cuDNN are required)
-dotnet add package SciSharp.TensorFlow.Redist-Windows-GPU
+dotnet add package SciSharp.TensorFlow.Redist-Windows-GPU -v 2.3.1
 ```
 
 > ……binary (SciSharp.TensorFlow.Redist\*) 的版本号跟 Google 的 TensorFlow 是一致的。
