@@ -16,10 +16,10 @@ Install TensorFlow binary (**essential**). Choose one of the following:
 ```bash
 ### Install tensorflow binary
 ### For CPU version
-PM> Install-Package SciSharp.TensorFlow.Redist
+PM> Install-Package SciSharp.TensorFlow.Redist -Version 2.3.1
 
 ### For GPU version (CUDA and cuDNN are required)
-PM> Install-Package SciSharp.TensorFlow.Redist-Windows-GPU
+PM> Install-Package SciSharp.TensorFlow.Redist-Windows-GPU -Version 2.3.1
 ```
 
 ## dotnet CLI
