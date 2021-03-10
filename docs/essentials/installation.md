@@ -16,10 +16,10 @@ Install TensorFlow binary (**essential**). Choose one of the following:
 ```bash
 ### Install tensorflow binary
 ### For CPU version
-PM> Install-Package SciSharp.TensorFlow.Redist -Version 2.3.1
+PM> Install-Package SciSharp.TensorFlow.Redist
 
 ### For GPU version (CUDA and cuDNN are required)
-PM> Install-Package SciSharp.TensorFlow.Redist-Windows-GPU -Version 2.3.1
+PM> Install-Package SciSharp.TensorFlow.Redist-Windows-GPU
 ```
 
 ## dotnet CLI
@@ -38,10 +38,10 @@ Install TensorFlow binary (**essential**). Choose one of the following:
 ```bash
 ### Install tensorflow binary
 ### For CPU version
-dotnet add package SciSharp.TensorFlow.Redist -v 2.3.1
+dotnet add package SciSharp.TensorFlow.Redist
 
 ### For GPU version (CUDA and cuDNN are required)
-dotnet add package SciSharp.TensorFlow.Redist-Windows-GPU -v 2.3.1
+dotnet add package SciSharp.TensorFlow.Redist-Windows-GPU
 
 ```
 
@@ -50,11 +50,12 @@ dotnet add package SciSharp.TensorFlow.Redist-Windows-GPU -v 2.3.1
 > ...if GPU package is chosen, **make very sure** that if the versions of TensorFlow (i.e. `tf native`) and CUDA are compatible:
 >
 > | TF.NET \ TensorFlow       | tf native 1.14, cuda 10.0 | tf native 1.15, cuda 10.0 | tf native 2.3, cuda 10.1 | tf native 2.4, cuda 11 |
-> | ------------------------- | :----------------------: | :-----------------------: | :----------------------: | :--------------------: |
-> | tf.net 0.3x, tf.keras 0.2 |                          |                           |            x             |     not compatible     |
-> | tf.net 0.2x               |                          |             x             |            x             |                        |
-> | tf.net 0.15               |            x             |             x             |                          |                        |
-> | tf.net 0.14               |            x             |                           |                          |                        |
+> | ------------------------- | :-----------------------: | :-----------------------: | :----------------------: | :--------------------: |
+> | tf.net 0.4x, tf.keras 0.5 |                           |                           |                          |           x            |
+> | tf.net 0.3x, tf.keras 0.2 |                           |                           |            x             |                        |
+> | tf.net 0.2x               |                           |             x             |            x             |                        |
+> | tf.net 0.15               |             x             |             x             |                          |                        |
+> | tf.net 0.14               |             x             |                           |                          |                        |
 
 ## Troubleshooting
 

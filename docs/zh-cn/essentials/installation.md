@@ -16,10 +16,10 @@ PM> Install-Package TensorFlow.Keras
 ```bash
 ### Install tensorflow binary
 ### For CPU version
-PM> Install-Package SciSharp.TensorFlow.Redist -Version 2.3.1
+PM> Install-Package SciSharp.TensorFlow.Redist
 
 ### For GPU version (CUDA and cuDNN are required)
-PM> Install-Package SciSharp.TensorFlow.Redist-Windows-GPU -Version 2.3.1
+PM> Install-Package SciSharp.TensorFlow.Redist-Windows-GPU
 ```
 
 ## dotnet CLI
@@ -38,10 +38,10 @@ dotnet add package TensorFlow.Keras
 ```bash
 ### Install tensorflow binary
 ### For CPU version
-dotnet add package SciSharp.TensorFlow.Redist -v 2.3.1
+dotnet add package SciSharp.TensorFlow.Redist
 
 ### For GPU version (CUDA and cuDNN are required)
-dotnet add package SciSharp.TensorFlow.Redist-Windows-GPU -v 2.3.1
+dotnet add package SciSharp.TensorFlow.Redist-Windows-GPU
 ```
 
 > ……binary (SciSharp.TensorFlow.Redist\*) 的版本号跟 Google 的 TensorFlow 是一致的。
@@ -49,11 +49,12 @@ dotnet add package SciSharp.TensorFlow.Redist-Windows-GPU -v 2.3.1
 > ……如果选了 GPU 依赖, **必须**确认 TensorFlow (i.e. `tf native`) 和 CUDA 的版本是能够兼容的:
 >
 > | TF.NET \ TensorFlow       | tf native 1.14, cuda 10.0 | tf native 1.15, cuda 10.0 | tf native 2.3, cuda 10.1 | tf native 2.4, cuda 11 |
-> | ------------------------- | :----------------------: | :-----------------------: | :----------------------: | :--------------------: |
-> | tf.net 0.3x, tf.keras 0.2 |                          |                           |            x             |     not compatible     |
-> | tf.net 0.2x               |                          |             x             |            x             |                        |
-> | tf.net 0.15               |            x             |             x             |                          |                        |
-> | tf.net 0.14               |            x             |                           |                          |                        |
+> | ------------------------- | :-----------------------: | :-----------------------: | :----------------------: | :--------------------: |
+> | tf.net 0.4x, tf.keras 0.5 |                           |                           |                          |           x            |
+> | tf.net 0.3x, tf.keras 0.2 |                           |                           |            x             |                        |
+> | tf.net 0.2x               |                           |             x             |            x             |                        |
+> | tf.net 0.15               |             x             |             x             |                          |                        |
+> | tf.net 0.14               |             x             |                           |                          |                        |
 
 ## 疑难杂症
 
