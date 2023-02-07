@@ -32,7 +32,7 @@ Console.WriteLine($"t1: {t1}, t2: {t2}, t3: {t3}");
 
 ## Data Structure of Tensor
 
-TF uses column major order. If we use NumSharp to generate a 2 x 3 matrix, if we access the data from 0 to 5 in order, we won't get a number of 1-6, but we get the order of 1, 4, 2, 5, 3, 6. a set of numbers.
+TF uses column major order. If we generate a 2 x 3 matrix (`NDArray`), if we access the data from 0 to 5 in order, we won't get a number of 1-6, but we get the order of 1, 4, 2, 5, 3, 6. a set of numbers.
 
 ```csharp
 // Generate a matrix:[[1, 2, 3], [4, 5, 6]]

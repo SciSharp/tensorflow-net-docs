@@ -32,7 +32,7 @@
 using static Tensorflow.Binding;
 using static Tensorflow.KerasApi;
 using Tensorflow;
-using NumSharp;
+using Tensorflow.NumPy;
 ```
 
 线性回归（Linear Regression）：
@@ -137,9 +137,8 @@ model.fit(x_train[new Slice(0, 1000)], y_train[new Slice(0, 1000)],
 #r "nuget: TensorFlow.Net"
 #r "nuget: TensorFlow.Keras"
 #r "nuget: SciSharp.TensorFlow.Redist"
-#r "nuget: NumSharp"
 
-open NumSharp
+open Tensorflow.NumPy;
 open Tensorflow
 open type Tensorflow.Binding
 open type Tensorflow.KerasApi
