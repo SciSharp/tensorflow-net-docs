@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = LogisticRegression
+build_property.ProjectDir = D:\SciSharp\出版相关\《TensorFlow.NET实战》代码案例资源\第6章 MNIST 手写字符分类逻辑回归\LogisticRegression\LogisticRegression\
