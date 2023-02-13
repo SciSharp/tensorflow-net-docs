@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "EOBvXRZSiGhBy+HogbPzOdRulAh1u7ZQKJX4mRbzOvVTyJFWhhsU2WcR+oBAO3YCKWVk2ACm0WJJMBccKiYSDw==",
+  "success": true,
+  "projectFilePath": "D:\\SciSharp\\出版相关\\《TensorFlow.NET实战》代码案例资源\\第6章 MNIST 手写字符分类逻辑回归\\LogisticRegression\\LogisticRegression\\LogisticRegression.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\numsharp.lite\\0.1.7\\numsharp.lite.0.1.7.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\protobuf.text\\0.4.0\\protobuf.text.0.4.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\scisharp.tensorflow.redist\\2.3.0\\scisharp.tensorflow.redist.2.3.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\tensorflow.net\\0.20.0-preview3\\tensorflow.net.0.20.0-preview3.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.29\\microsoft.netcore.app.host.win-x64.3.1.29.nupkg.sha512"
+  ],
+  "logs": []
+}

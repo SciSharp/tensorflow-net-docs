@@ -25,3 +25,8 @@ This site is built with [Docsify](https://docsify.js.org/). Site content is writ
 ## Deploying
 
 This site is deployed utilizing GitHub Pages. New commits trigger updates of websites.
+
+## Url of resource files (Code in TensorFlow.NET Practice)
+Url: https://pan.baidu.com/s/1dbxfy-GByGkYxqYcdmcI8g?pwd=bvbk 
+
+Extraction code: bvbk 
