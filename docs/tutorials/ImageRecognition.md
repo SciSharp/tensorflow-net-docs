@@ -1,6 +1,6 @@
 # Image Recognition
 
-An example for using the [TensorFlow.NET](https://github.com/SciSharp/TensorFlow.NET) and [NumSharp](https://github.com/SciSharp/NumSharp) for image recognition, it will use a pre-trained inception model to predict a image which outputs the categories sorted by probability. The original paper is [here](https://arxiv.org/pdf/1512.00567.pdf). The Inception architecture of GoogLeNet was designed to perform well even under strict constraints on memory and computational budget. The computational cost of Inception is also much lower than other performing successors. This has made it feasible to utilize Inception networks in big-data scenarios, where huge amount of data needed to be processed at reasonable cost or scenarios where memory or computational capacity is inherently limited, for example in mobile vision settings.
+An example for using the [TensorFlow.NET](https://github.com/SciSharp/TensorFlow.NET) for image recognition, it will use a pre-trained inception model to predict a image which outputs the categories sorted by probability. The original paper is [here](https://arxiv.org/pdf/1512.00567.pdf). The Inception architecture of GoogLeNet was designed to perform well even under strict constraints on memory and computational budget. The computational cost of Inception is also much lower than other performing successors. This has made it feasible to utilize Inception networks in big-data scenarios, where huge amount of data needed to be processed at reasonable cost or scenarios where memory or computational capacity is inherently limited, for example in mobile vision settings.
 
 The GoogLeNet architecture conforms to below design principles:
 
@@ -68,7 +68,7 @@ private NDArray ReadTensorFromImageFile(string file_name,
 
 ### 3. Load pre-trained model and predict
 
-Load the pre-trained inception model which is saved as Google's protobuf file format. Construct a new graph then set input and output operations in a new session. After run the session, you will get a numpy-like ndarray which is provided by NumSharp. With NumSharp, you can easily perform various operations on multiple dimensional arrays in the .NET environment.
+Load the pre-trained inception model which is saved as Google's protobuf file format. Construct a new graph then set input and output operations in a new session. After run the session, you will get a numpy-like ndarray. Thus, you can easily perform various operations on multiple dimensional arrays in the .NET environment.
 
 ```csharp
 public void Run()

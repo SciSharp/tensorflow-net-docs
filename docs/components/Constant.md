@@ -24,7 +24,7 @@ var c4 = tf.constant("Big Tree"); // string
 
 Initialize a constant through ndarray:
 
-TF.NET works very well with `NumSharp`'s `NDArray`.  You can create a tensor from .NET primitive data type and NDArray as well. An `ndarray` is a (usually fixed-size) multidimensional container of items of the same type and size. The number of dimensions and items in an array is defined by its `shape`, which is a tuple of N non-negative integers that specify the sizes of each dimension.
+TF.NET used to work with `Numsharp`, which is a C# binding of `Numpy`. In the current version, however, TF.NET put the `NDArray` and many other numpy features inside the TF.NET, you can import `using Tensorflow.NumPy` to create an `NDArray`.
 
 ```csharp
 // dtype=int, shape=(2, 3)

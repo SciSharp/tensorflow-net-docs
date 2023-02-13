@@ -20,7 +20,7 @@ Get started with the implementation:
 
    ```csharp
    using System;
-   using NumSharp;
+   using Tensorflow.NumPy;
    using Tensorflow;
    using TensorFlowNET.Examples.Utility;
    using static Tensorflow.Python;

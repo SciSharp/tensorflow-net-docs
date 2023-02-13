@@ -32,7 +32,7 @@ Import TF.NET and Keras API in your project.
 using static Tensorflow.Binding;
 using static Tensorflow.KerasApi;
 using Tensorflow;
-using NumSharp;
+using Tensorflow.NumPy;
 ```
 
 Linear Regression in `Eager` mode:
